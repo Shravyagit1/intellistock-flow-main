@@ -1,0 +1,39 @@
+============================================================
+MODEL TESTING REPORT
+Date: 2026-02-05 17:39:21
+============================================================
+
+1. TEST SET SUMMARY
+----------------------------------------
+Samples tested: 10000
+Features used: 26
+
+2. DEMAND FORECASTING RESULTS
+----------------------------------------
+R² Score                 : 0.9999178260526911
+RMSE                     : 2.6202564793467036
+MAE                      : 1.7818926017182541
+Explained Variance       : 0.9999178266603327
+Max Error                : 21.024971261728524
+MAPE                     : 0.4368510496604568
+MSLE                     : 7.200784380293463e-05
+
+3. STOCKOUT PREDICTION RESULTS
+----------------------------------------
+Accuracy                      : 1.0
+Log Loss                      : 0.0008803561819341514
+Cohen Kappa                   : 1.0
+Precision (Weighted)          : 1.0
+Recall (Weighted)             : 1.0
+F1 Score (Weighted)           : 1.0
+Hamming Loss                  : 0.0
+
+4. CONFUSION MATRIX
+----------------------------------------
+[[3360    0    0]
+ [   0 3360    0]
+ [   0    0 3280]]
+
+5. BUSINESS IMPACT
+----------------------------------------
+Total Estimated Monthly Cost: Rs. 2,309,207.97

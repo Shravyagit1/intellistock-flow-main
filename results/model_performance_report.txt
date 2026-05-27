@@ -1,0 +1,46 @@
+============================================================
+SMART WAREHOUSE - MODEL PERFORMANCE REPORT
+============================================================
+
+1. DEMAND FORECASTING MODEL (Regression)
+----------------------------------------
+R² Score            : 0.9998366876617003
+RMSE                : 3.6811017406282986
+MAE                 : 2.599422890893331
+Explained Variance  : 0.9998366924849375
+Max Error           : 21.024971261728524
+MAPE                : 0.6939818396215139
+MSLE                : 0.00021147601004991513
+MASE                : 0.007709229575866283
+
+2. STOCKOUT PREDICTION MODEL (Classification)
+----------------------------------------
+Accuracy                 : 1.0
+Log Loss                 : 0.001803252971657289
+Cohen Kappa              : 1.0
+Precision (Macro)        : 1.0
+Precision (Weighted)     : 1.0
+Recall (Macro)           : 1.0
+Recall (Weighted)        : 1.0
+F1 Score (Macro)         : 1.0
+F1 Score (Weighted)      : 1.0
+Hamming Loss             : 0.0
+Jaccard Score            : 1.0
+AUC-ROC (Macro)          : 1.0
+AUC-PR (Macro)           : nan
+MCC                      : 1.0
+CV Accuracy              : 1.0000 (+/- 0.0000)
+
+3. TOP 5 FEATURES
+----------------------------------------
+10. Inbound_Qty: 0.9744
+22. Lead_Time_Days: 0.0255
+14. Demand_Volatility_Pct: 0.0000
+21. Inflation_Rate_Pct: 0.0000
+20. Temperature_C: 0.0000
+
+4. CONFUSION MATRIX
+----------------------------------------
+[[660   0   0]
+ [  0 702   0]
+ [  0   0 638]]

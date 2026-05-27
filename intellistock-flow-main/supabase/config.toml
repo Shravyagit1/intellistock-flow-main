@@ -1,0 +1,4 @@
+project_id = "nuakependrbqtbimgvkg"
+
+[functions.weather-prediction]
+verify_jwt = false
